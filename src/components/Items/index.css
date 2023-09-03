@@ -1,0 +1,42 @@
+.btn {
+  color: white;
+  background-color: #f5721b;
+  border-radius: 10px;
+  padding: 5px;
+  border-width: 0px;
+  margin: 5px;
+}
+.com {
+  height: 100px;
+  width: 100px;
+}
+.pro {
+  height: 360px;
+  width: 290px;
+}
+.grid-container {
+  display: grid;
+  column-gap: 50px;
+  align-items: center;
+}
+.item-1 {
+  grid-column-start: 2;
+  grid-column-end: 7;
+}
+.item-2 {
+  grid-column-start: 8;
+  grid-column-end: 12;
+}
+.heading {
+  font-size: 50px;
+}
+@media screen and (max-width: 768px) {
+  .item {
+    grid-column-start: 2;
+    grid-column-end: 11;
+  }
+  .item-2 {
+    grid-column-start: 2;
+    grid-column-end: 11;
+  }
+}

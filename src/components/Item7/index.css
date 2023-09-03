@@ -1,0 +1,16 @@
+.about-1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+  margin-top: 7em;
+  margin-bottom: 7em;
+}
+.para {
+  margin: 13px;
+  font-size: 20px;
+  background-color: white;
+}
+.about-20 {
+  text-align: center;
+  margin-top: 7em;
+}

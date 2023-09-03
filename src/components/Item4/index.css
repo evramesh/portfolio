@@ -1,0 +1,39 @@
+.btn {
+  color: white;
+  background-color: #f5721b;
+  border-radius: 20px;
+  padding: 5px;
+  border-width: 0px;
+  margin: 5px;
+  width: 150px;
+  height: 60px;
+  font-size: 17px;
+}
+.bin-1 {
+  font-size: 25px;
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+.student-container {
+  display: grid;
+  column-gap: 50px;
+  align-items: center;
+}
+.bin-2 {
+  grid-column-start: 6;
+  grid-column-end: 12;
+}
+.pro {
+  height: 450px;
+  width: 350px;
+}
+@media screen and (max-width: 720px) {
+  .bin-1 {
+    grid-column-start: 3;
+    grid-column-end: 10;
+  }
+  .bin-2 {
+    grid-column-start: 3;
+    grid-column-end: 10;
+  }
+}

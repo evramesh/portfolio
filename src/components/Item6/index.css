@@ -1,0 +1,27 @@
+.icon-img {
+  height: 100px;
+  width: 100px;
+}
+.test-container {
+  display: grid;
+  column-gap: 50px;
+  align-items: center;
+}
+.test-1 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  text-align: center;
+}
+.test-2 {
+  grid-column-start: 6;
+  grid-column-end: 8;
+  text-align: center;
+}
+.test-3 {
+  grid-column-start: 9;
+  grid-column-end: 11;
+  text-align: center;
+}
+.test-head {
+  text-align: center;
+}
